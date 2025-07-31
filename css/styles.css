@@ -1,5 +1,5 @@
 /* ===================================
-   VARIABLES CSS - LF-STYLE
+   VARIABLES CSS 
    =================================== */
 :root {
   /* Couleurs principales */
@@ -342,7 +342,7 @@ footer {
 }
 
 /* ===================================
-   RESPONSIVE MOBILE - REFAIT COMPLET
+        RESPONSIVE MOBILE 
    =================================== */
 @media (max-width: 768px) {
   /* HEADER MOBILE MODERNE */
