@@ -164,7 +164,7 @@ i:hover {
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 2rem;
   max-width: 1400px;
@@ -245,4 +245,39 @@ i:hover {
 .add-to-cart:hover {
   background: var(--primary-color);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: var(--text-dark);
+  color: var(--text-white);
+  padding: 3rem 0 5rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: auto;
+  gap: 10px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-section h3 {
+  color: var(--primary-color);
+}
+
+.footer-section a {
+  color: var(--text-white);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-section a:hover {
+  color: var(--primary-color);
 }
