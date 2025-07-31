@@ -152,7 +152,7 @@ i:hover {
   background-color: var(--primary-hover);
   color: var(--text-white);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .products-title {
@@ -209,4 +209,40 @@ i:hover {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.product-sizes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.size-btn {
+  padding: 5px 10px;
+  background-color: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.size-btn.selected {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 10px;
+  background: var(--text-dark);
+  color: var(--text-white);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add-to-cart:hover {
+  background: var(--primary-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
