@@ -1,0 +1,180 @@
+/* ===================================
+   RESET CSS MODERNE - by LuumiA
+   À réutiliser sur tous tes projets !
+   =================================== */
+
+/* 1. Reset de base - Supprime les marges/padding par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. HTML et Body - Base solide */
+html {
+  font-size: 62.5%; /* 1rem = 10px (facilite les calculs) */
+  scroll-behavior: smooth; /* Navigation douce vers les ancres */
+}
+
+body {
+  font-size: 1.6rem; /* 16px par défaut */
+  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #333;
+  background-color: #fff;
+  overflow-x: hidden; /* Évite le scroll horizontal */
+}
+
+/* 3. Typographie - Titres harmonieux */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.8rem;
+}
+h6 {
+  font-size: 1.6rem;
+}
+
+/* 4. Texte et paragraphes */
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* 5. Listes - Reset des puces */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 6. Liens - Comportement moderne */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* 7. Images et médias - Responsive par défaut */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 8. Formulaires - Style uniforme */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+textarea {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* 9. Tables - Mise en forme propre */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* 10. Utilitaires de base */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 11. Fix pour iOS - Améliore les performances */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 12. Fix pour les navigateurs webkit */
+*:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+/* 13. Sélection de texte - Style personnalisé */
+::selection {
+  background-color: #007bff;
+  color: white;
+}
+
+/* 14. Scroll bar customization (webkit) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* ===================================
+   FIN DU RESET - Prêt à coder ! 🚀
+   =================================== */
