@@ -84,7 +84,7 @@ i:hover {
 }
 
 .hero {
-  height: 100vh;
+  height: 70vh;
   background: var(--bg-gradient);
   display: flex;
   align-items: center;
@@ -120,4 +120,44 @@ i:hover {
   transition: all 0.3s;
   transform: scale(1.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.filters {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  background: var(--bg-light);
+  height: 10vh;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 5px 15px;
+  background-color: var(--bg-white);
+  border-radius: 20px;
+  border: 2px solid var(--border-light);
+  transition: all 0.3s;
+  color: var(--text-dark);
+}
+
+.filter-btn.active {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.filter-btn:hover {
+  background-color: var(--primary-hover);
+  color: var(--text-white);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.products-title {
+  text-align: center;
+  font-size: 4rem;
+  color: var(--text-dark);
+  margin: 2rem 0;
 }
