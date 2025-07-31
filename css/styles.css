@@ -1,0 +1,61 @@
+:root {
+  /* Couleur principale */
+  --primary-color: #ff6b6b; /* Rose/rouge moderne */
+
+  /* Couleurs de texte */
+  --text-dark: #2c2c2c; /* Texte principal (titres) */
+  --text-light: #666; /* Texte secondaire */
+  --text-white: #fff; /* Texte sur fond sombre */
+
+  /* Backgrounds */
+  --bg-white: #ffffff; /* Fond principal */
+  --bg-light: #f8f9fa; /* Fond sections claires */
+  --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Hero */
+
+  /* Borders et elements */
+  --border-light: #e1e5e9; /* Bordures subtiles */
+  --shadow: rgba(0, 0, 0, 0.1); /* Ombres */
+
+  /* États hover/focus */
+  --primary-hover: #e55a5a; /* Rose plus foncé au hover */
+}
+
+header {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: var(--text-light);
+  font-weight: 300;
+  transition: all 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-dark);
+}
